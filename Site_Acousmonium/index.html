@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fab Lab Acousmonium — laboratório em desenvolvimento em Belo Horizonte. Pesquisa, fabricação e escuta.">
+  <title>Fab Lab Acousmonium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#inicio">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Fab Lab Acousmonium — início">
+        <img id="brand-logo" alt="Fab Lab Acousmonium" hidden>
+        <span id="brand-text"><strong>FAB LAB<br>ACOUSMONIUM</strong><small>Pesquisa · Fabricação · Escuta</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav id="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#maquinas">Máquinas</a><a href="#infraestrutura">Infraestrutura</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a>
+        <a class="button button-small" href="#contato">Torne-se parceiro <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="inicio" class="hero container">
+      <div class="hero-meta eyebrow"><span>FAB LAB ACOUSMONIUM</span><span>BELO HORIZONTE · MG · BRASIL</span></div>
+      <h1>Um laboratório<br>para fabricar<br><em>possibilidades.</em></h1>
+      <div class="hero-bottom"><p>O Fab Lab Acousmonium é um laboratório em desenvolvimento dedicado à fabricação digital, experimentação técnica e criação na interseção entre tecnologia, som, audiovisual e práticas artísticas.</p><div class="hero-actions"><a class="button" href="#contato">Torne-se parceiro <span aria-hidden="true">↗</span></a><a class="text-link" href="#sobre">Conheça o laboratório <span aria-hidden="true">↓</span></a></div></div>
+      <div class="hero-foot"><span class="eyebrow development">LABORATÓRIO EM DESENVOLVIMENTO</span><span class="eyebrow">PESQUISA / FABRICAÇÃO / ESCUTA</span></div>
+    </section>
+    <section id="sobre" class="section container">
+      <div class="section-heading"><span class="section-number">01</span><h2>Sobre o Fab Lab</h2></div>
+      <div class="about-grid"><div class="body-copy"><p class="lead">O Fab Lab Acousmonium nasce como um espaço de prototipagem, fabricação e experimentação voltado à aproximação entre tecnologias digitais e processos criativos. Sua infraestrutura está sendo construída progressivamente, com atenção especial às relações entre fabricação digital, eletrônica, áudio, audiovisual e tecnologias aplicadas às artes.</p><p>Esta primeira estrutura digital também está em desenvolvimento. Ela funciona como uma forma de organizar, visualizar e testar aquilo que o laboratório poderá se tornar.</p></div><div class="technical-composition" aria-label="Pesquisa, fabricação e escuta"><div class="eyebrow">ACOUSMONIUM / V1.0</div><p><small>01 /</small> Pesquisa</p><p><small>02 /</small> Fabricação</p><p><small>03 /</small> Escuta</p><div class="eyebrow">ESTRUTURA EM CONSTRUÇÃO</div></div></div>
+    </section>
+    <section id="maquinas" class="section container">
+      <div class="section-heading"><span class="section-number">02</span><h2>Máquinas</h2></div>
+      <div class="section-intro"><p>O parque de máquinas do Fab Lab Acousmonium está em formação. Os equipamentos exibidos nesta versão são exemplos de demonstração da futura estrutura do catálogo.</p><span class="eyebrow badge">CATÁLOGO EM DESENVOLVIMENTO</span></div>
+      <div class="catalog-toolbar"><span id="machine-count" class="eyebrow"></span><button id="add-machine" class="button button-outline" type="button" hidden>+ Adicionar máquina</button></div>
+      <div id="machine-grid" class="machine-grid"></div>
+      <noscript><p>Ative o JavaScript para visualizar e editar o catálogo de máquinas.</p></noscript>
+    </section>
+    <section id="infraestrutura" class="section container">
+      <div class="section-heading"><span class="section-number">03</span><h2>Infraestrutura<br>em desenvolvimento</h2></div>
+      <p class="section-description">Estamos construindo progressivamente a infraestrutura do Fab Lab Acousmonium. Máquinas, ferramentas, estações técnicas e parcerias serão incorporadas conforme o laboratório avança.</p>
+      <p class="eyebrow">ÁREAS EM DESENVOLVIMENTO</p>
+      <div class="area-list"><div><span>01 /</span><h3>Fabricação Digital</h3></div><div><span>02 /</span><h3>Eletrônica &amp; Interação</h3></div><div><span>03 /</span><h3>Áudio &amp; Espacialização</h3></div><div><span>04 /</span><h3>Pesquisa &amp; Produção Artística</h3></div></div>
+      <div class="partnership"><h3>Construir um laboratório também é construir uma rede.</h3><div><p>O Fab Lab Acousmonium está aberto ao diálogo com instituições, fabricantes, laboratórios, pesquisadores, artistas e organizações interessadas em colaborar com o desenvolvimento de sua infraestrutura.</p><a class="button" href="#contato">Torne-se parceiro <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+    <section id="servicos" class="section container">
+      <div class="section-heading"><span class="section-number">04</span><h2>Serviços</h2></div>
+      <div class="section-intro"><p>A estrutura de serviços do Fab Lab Acousmonium será desenvolvida juntamente com sua infraestrutura técnica.</p><span class="eyebrow badge">EM DEFINIÇÃO</span></div>
+      <ul class="services-list"><li>Prototipagem</li><li>Fabricação digital</li><li>Eletrônica</li><li>Áudio</li><li>Desenvolvimento técnico</li></ul>
+    </section>
+    <section id="contato" class="section container">
+      <div class="section-heading"><span class="section-number">05</span><h2>Contato</h2></div>
+      <div class="contact-grid"><div><h3 class="contact-title">Quer construir esta infraestrutura conosco?</h3><p>Estamos abertos a conversas sobre parcerias, colaboração técnica, equipamentos, pesquisa e desenvolvimento.</p><a class="text-link" href="#contact-name">Torne-se parceiro <span aria-hidden="true">↗</span></a><address><strong>Fab Lab Acousmonium</strong><br>Belo Horizonte · Minas Gerais · Brasil<dl><dt>E-mail</dt><dd>[adicionar e-mail]</dd><dt>Telefone</dt><dd>[adicionar telefone]</dd><dt>Visitas</dt><dd>Mediante agendamento</dd></dl></address></div>
+      <form id="contact-form"><label for="contact-name">Nome</label><input id="contact-name" name="name" autocomplete="name" required><label for="contact-org">Instituição / organização</label><input id="contact-org" name="organization" autocomplete="organization"><label for="contact-email">E-mail</label><input id="contact-email" name="email" type="email" autocomplete="email" required><label for="contact-subject">Assunto</label><select id="contact-subject" name="subject"><option>Parceria</option><option>Equipamentos</option><option>Pesquisa</option><option>Projeto</option><option>Visita</option><option>Outro</option></select><label for="contact-message">Mensagem</label><textarea id="contact-message" name="message" rows="5" required></textarea><button class="button" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button><p id="contact-feedback" role="status" class="form-feedback"></p></form></div>
+    </section>
+  </main>
+  <footer class="container"><div class="footer-main"><div><strong>FAB LAB ACOUSMONIUM</strong><p>Pesquisa · Fabricação · Escuta</p></div><p>Belo Horizonte · Minas Gerais · Brasil</p><nav aria-label="Navegação do rodapé"><a href="#sobre">Sobre</a><a href="#maquinas">Máquinas</a><a href="#infraestrutura">Infraestrutura</a><a href="#contato">Contato</a></nav></div><div class="footer-bottom"><span>© 2026 Fab Lab Acousmonium</span><span>Website V1.0 · laboratório em desenvolvimento</span></div></footer>
+  <dialog id="machine-dialog" aria-labelledby="machine-dialog-title"><div class="dialog-header"><h2 id="machine-dialog-title">Adicionar máquina</h2><button class="icon-button" type="button" data-close aria-label="Fechar modal">×</button></div><form id="machine-form"><div class="form-grid"><div><label for="machine-name">Nome *</label><input id="machine-name" name="name" required maxlength="150"></div><div><label for="machine-category">Categoria *</label><input id="machine-category" name="category" required maxlength="100"></div><div><label for="machine-manufacturer">Fabricante</label><input id="machine-manufacturer" name="manufacturer" maxlength="150"></div><div><label for="machine-model">Modelo</label><input id="machine-model" name="model" maxlength="150"></div><div><label for="machine-status">Status</label><input id="machine-status" name="status" maxlength="100"></div><div><label for="machine-work-area">Área de trabalho</label><input id="machine-work-area" name="workArea" maxlength="200"></div><div class="full-width"><label for="machine-description">Descrição *</label><textarea id="machine-description" name="description" rows="3" required maxlength="3000"></textarea></div><div class="full-width"><label for="machine-materials">Materiais</label><input id="machine-materials" name="materials" maxlength="1000"></div><div class="full-width"><label for="machine-specs">Especificações</label><textarea id="machine-specs" name="specs" rows="3" placeholder="Uma especificação por linha" maxlength="3000"></textarea></div><div class="full-width"><label for="machine-image">Imagem — URL ou caminho</label><input id="machine-image" name="image" placeholder="assets/machines/equipamento.jpg" maxlength="2000"></div></div><label class="checkbox-label"><input type="checkbox" name="isDemo"> Equipamento de demonstração</label><p id="machine-error" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" class="button button-outline" data-close>Cancelar</button><button type="submit" class="button" id="save-machine">Salvar máquina</button></div></form></dialog>
+  <dialog id="details-dialog" aria-labelledby="details-title"><div class="dialog-header"><h2 id="details-title">Detalhes da máquina</h2><button class="icon-button" type="button" data-close aria-label="Fechar detalhes">×</button></div><div id="details-content"></div></dialog>
+  <dialog id="delete-dialog" class="small-dialog" aria-labelledby="delete-title"><div class="dialog-header"><h2 id="delete-title">Excluir equipamento?</h2><button class="icon-button" type="button" data-close aria-label="Fechar confirmação">×</button></div><p>Você está prestes a remover:</p><strong id="delete-name"></strong><p>Esta ação removerá o equipamento deste catálogo.</p><p id="delete-error" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" class="button button-outline" data-close>Cancelar</button><button id="confirm-delete" type="button" class="button button-danger">Excluir</button></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
